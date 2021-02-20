@@ -1,0 +1,25 @@
+{
+  "walluApp": {
+    "fiche": {
+      "home": {
+        "title": "Fiches",
+        "createLabel": "Créer un nouveau Fiche",
+        "createOrEditLabel": "Créer ou éditer un Fiche",
+        "search": "Recherche pour Fiche",
+        "notFound": "Aucun Fiche trouvé"
+      },
+      "created": "Un nouveau Fiche a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Fiche avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Fiche avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Fiche {{ id }} ?"
+      },
+      "detail": {
+        "title": "Fiche"
+      },
+      "groupeSanguin": "Groupe Sanguin",
+      "poids": "Poids",
+      "taille": "Taille"
+    }
+  }
+}

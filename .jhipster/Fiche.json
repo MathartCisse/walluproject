@@ -1,0 +1,29 @@
+{
+  "name": "Fiche",
+  "fields": [
+    {
+      "fieldName": "groupeSanguin",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "poids",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "taille",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210218011947",
+  "entityTableName": "fiche",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

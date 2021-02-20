@@ -1,0 +1,28 @@
+
+entity Patient {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	age Long,
+	salary Long,
+	idCardNumber Long
+}
+
+entity Fiche {
+	groupeSanguin String,
+	poids Long,
+	taille Long,
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToOne {
+	Patient{patient} to Fiche
+	
+}
+
+
+

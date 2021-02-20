@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "com.mycompany.myapp.config.ApplicationProperties",
+      "sourceType": "com.mycompany.myapp.config.ApplicationProperties"
+    },
+    {
+      "name": "kafka",
+      "type": "com.mycompany.myapp.config.KafkaProperties",
+      "sourceType": "com.mycompany.myapp.config.KafkaProperties"
+    },
+    {
+      "name": "spring.datasource.hikari",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.mycompany.myapp.config.CloudDatabaseConfiguration",
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "kafka.boot-strap-servers",
+      "type": "java.lang.String",
+      "sourceType": "com.mycompany.myapp.config.KafkaProperties"
+    },
+    {
+      "name": "kafka.consumer-props",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.mycompany.myapp.config.KafkaProperties"
+    },
+    {
+      "name": "kafka.producer-props",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.mycompany.myapp.config.KafkaProperties"
+    }
+  ],
+  "hints": []
+}
